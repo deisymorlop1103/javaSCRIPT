@@ -2,11 +2,23 @@
 
 const letters = [ "a", "b", "c","d"]
 const f = function() {
-  console.logesta es la letra: " + letter );
+  console.log(Es la letra: " + letter );
 };
 
 letters.forEach(f);
 
+//**************************** 
+//FUNCIÓN FLECHA//ARROW FUNCTION
+
+ const letters=['a','b','c','d','e'];
+
+ letters.forEach(function() {
+    console.log("Imprimo un elemento");
+ })
+
+ letters.forEach(()=>console.log("Imprimo un elemento"));
+
+//***************************************************
 //bucle forEach para sacar números primos del 1 al 40
 
 function validaPrimo(numero) {
